@@ -46,7 +46,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 25px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -252,6 +252,7 @@ nav h1 a {
 }
 #reviews-container {
   padding: 30px 1px 0px;
+  margin-bottom: 65px;
 }
 #reviews-container h2 {
   color: #f58500;

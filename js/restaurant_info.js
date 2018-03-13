@@ -77,8 +77,12 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
  */
 fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => {
   const hours = document.getElementById('restaurant-hours');
+  let tabIndex = 1;
+
   for (let key in operatingHours) {
     const row = document.createElement('tr');
+    row.setAttribute('tabindex', `${tabIndex}`)
+    tabIndex++;
 
     const day = document.createElement('td');
     day.innerHTML = key;

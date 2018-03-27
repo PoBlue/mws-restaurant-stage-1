@@ -1,5 +1,4 @@
 # Restaurant Reviews
----
 
 ## How to run
 1. From inside the this directory, launch a local client server using Python from your terminal: 
